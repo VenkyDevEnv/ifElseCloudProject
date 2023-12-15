@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="top">
+    <h2>Transaction History</h2>
+    <div class="buttons">
+      <input
+        placeholder="Search"
+        type="text"
+        [(ngModel)]="searchTerm"
+        placeholder="Search"
+        (input)="search()"
+      />
+      <button>
+        <span><i class="fa-solid fa-filter"></i></span>Filter
+      </button>
+      <button>
+        <span><i class="fa-regular fa-file"></i></span>Export
+      </button>
+    </div>
+  </div>
+  <div class="table">
+    <table id="customers">
+      <tbody>
+        <tr>
+          <th>Date</th>
+          <th>Name</th>
+          <th>Status</th>
+          <th>Type</th>
+          <th>Time</th>
+          <th>Amount</th>
+          <th>Action</th>
+        </tr>
+
+        <tr *ngFor="let payment of filteredItems">
+          <td>{{ payment.date | date : "mediumDate" }}</td>
+          <td>{{ payment.name }}</td>
+          <td>{{ payment.status }}</td>
+          <td>{{ payment.type }}</td>
+          <td>{{ payment.date | date : "shortTime" }}</td>
+          <td>{{ payment.amount | currency : "USD" }}</td>
+          <td><i class="fa-solid fa-ellipsis"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="heading">
+    <h3 class="moneyHeading">Money Statistics</h3>
+    <button class="icon"><i class="fa-solid fa-ellipsis"></i></button>
+  </div>
+
+  <div class="moneyControl">
+    <div class="income">
+      <h3 class="statisticsHeading">Total Income</h3>
+      <h2 class="statisticsValue">{{ totalIncome | currency : "USD" }}</h2>
+      <p><span class="incomTrend">📈+27%</span> form last month</p>
+    </div>
+    <div class="vl"></div>
+    <div class="expense">
+      <h3 class="statisticsHeading">Total Expenses</h3>
+      <h2 class="statisticsValue">{{ totalExpense | currency : "USD" }}</h2>
+      <p><span class="expenseTrend">📈+15%</span> form last month</p>
+    </div>
+    <div class="vl"></div>
+    <div class="investment">
+      <h3 class="statisticsHeading">Total Investment</h3>
+      <h2 class="statisticsValue">{{ totalInvestment | currency : "USD" }}</h2>
+      <p><span class="investmentTrend">📈+6%</span> form last month</p>
+    </div>
+  </div>
+
+  <div class="columnChart">
+    <canvas id="columnChart" width="100%" height="55"></canvas>
+  </div>
+</div>

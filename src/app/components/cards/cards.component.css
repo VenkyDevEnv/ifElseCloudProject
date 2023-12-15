@@ -1,0 +1,209 @@
+.card {
+  border-radius: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #25275a;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  height: 70px;
+  color: #ffff;
+  font-size: 30px;
+}
+
+.bottom {
+  background-color: #91a9a9;
+  height: 60px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.shadow {
+  background-color: #dfe2e7;
+  height: 15px;
+  margin: 0px 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  color: #ffff;
+}
+
+.cardNumber {
+  color: #ffff;
+  font-weight: 200;
+}
+
+.cardName {
+  color: #ffff;
+  font-weight: 200;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+button {
+  margin: 5px;
+  border: 2px solid #f7f7f7;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ffff;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+p {
+  font-weight: 600;
+  color: #0d0c29;
+  padding-top: 10px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.newCard {
+  width: 100%;
+  color: #18181c;
+  padding: 10px;
+  border-style: dashed;
+  border-color: #bbb9b9;
+  margin: 20px 0px;
+  font-size: 12px;
+}
+
+.actions {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  border: 2px solid #f5f5f5;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.actionIcon {
+  font-size: 20px;
+  display: block;
+}
+
+.vl {
+  border-left: 2px solid #f5f5f5;
+  text-align: center;
+  margin: 10px;
+}
+
+.actionName {
+  font-size: 8px;
+  font-weight: none;
+}
+
+.horizontalLine {
+  border-left: 2px solid #f5f5f5;
+}
+
+.savingPlan {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.watchDiv {
+  display: block;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+  color: #262548;
+}
+
+.plusIcon {
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.watchField {
+  display: flex;
+}
+
+.watchIcon {
+  justify-content: center;
+  padding: 0px 15px;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.watchDetails {
+  margin: 0px !important;
+  padding: 20px 0px;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+
+.watchName {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 800;
+}
+
+.watchTarget {
+  margin: 0px;
+  padding: 0px;
+  color: #979b9e;
+}
+
+.moreIcon {
+  padding-top: 30px;
+  font-size: 20px;
+  padding-right: 0px;
+  padding-left: 80px;
+}
+
+.progressBar {
+  display: block;
+  padding-top: 10px;
+}
+
+.progressBarDetails {
+  font-size: 12px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.matBar {
+  padding: 0px 10px 10px;
+  font-size: 30px;
+  color: #f5f5f5;
+}
+
+.playStation {
+  padding-top: 10px;
+}
